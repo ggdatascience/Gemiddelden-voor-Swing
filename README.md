@@ -25,8 +25,8 @@ Het script werkt met behulp van een configuratie Excel bestand. Hierin staan de 
  - labels_id [1, 2  
               1, 2  
               1, 2] (in een lijst onder elkaar)  
- Dit script voegt de gemeenten automatisch samen tot regio en zet het GGD gemiddelde in de Excel file erbij.
- De crossings worden los uitgedraaid per indicator.
+Dit script voegt de gemeenten automatisch samen tot regio en zet het GGD gemiddelde in de Excel file erbij.  
+De crossings worden los uitgedraaid per indicator.
 
 GGD Zuid-Limburg  
  
@@ -34,3 +34,4 @@ Updates
  Update 27 mei 2024: Gemiddelde over de GGD regio en provincie te berekenen; gebruik weegfactor_landelijk.  
  Update 17 juni 2024: Weegfactor op 1 zetten als weegfactor ontbrekend is.  
  Update 6 november 2024: Uitleg en install.packages toegevoegd   
+Feedback is welkom!  
