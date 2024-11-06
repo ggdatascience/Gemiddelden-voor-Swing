@@ -1,6 +1,6 @@
 ### Script voor het berekenen van gemiddelden per variabele
-De basis van het script is gemaakt door Pieter Seinen 
-Het script werkt met behulp van een configuratie Excel bestand. Hierin staan de volgende opties (zie Voorbeeld_conf.xlsx):
+De basis van het script is gemaakt door Pieter Seinen  
+Het script werkt met behulp van een configuratie Excel bestand. Hierin staan de volgende opties (zie Voorbeeld_conf.xlsx):  
 - bestandsnaam	[volledig/path/naar/spss_bestand_monitor_inclusief_labels.sav]
 - output [volledig/path/naar/output_map]	
 - variabele	[gmj_alcohollft,gmj_suiker_gemiddeld,gmj_energie_gemiddeld] (let op de komma's!)
@@ -28,9 +28,9 @@ Het script werkt met behulp van een configuratie Excel bestand. Hierin staan de 
  Dit script voegt de gemeenten automatisch samen tot regio en zet het GGD gemiddelde in de Excel file erbij.
  De crossings worden los uitgedraaid per indicator.
 
-GGD Zuid-Limburg
+GGD Zuid-Limburg  
  
-Updates
- Update 27 mei 2024: Gemiddelde over de GGD regio en provincie te berekenen; gebruik weegfactor_landelijk.
- Update 17 juni 2024: Weegfactor op 1 zetten als weegfactor ontbrekend is.
- Update 6 november 2024: Uitleg en install.packages toegevoegd 
+Updates  
+ Update 27 mei 2024: Gemiddelde over de GGD regio en provincie te berekenen; gebruik weegfactor_landelijk.  
+ Update 17 juni 2024: Weegfactor op 1 zetten als weegfactor ontbrekend is.  
+ Update 6 november 2024: Uitleg en install.packages toegevoegd   
