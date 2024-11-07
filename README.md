@@ -1,4 +1,4 @@
-### Script voor het berekenen van gemiddelden per variabele
+### Script voor het berekenen van gemiddelden per variabele voor in Swing.
 De basis van het script is gemaakt door Pieter Seinen  
 Het script werkt met behulp van een configuratie Excel bestand. Hierin staan de volgende opties (zie Voorbeeld_conf.xlsx):  
 - bestandsnaam	[volledig/path/naar/spss_bestand_monitor_inclusief_labels.sav]
