@@ -15,20 +15,20 @@ Het script werkt met behulp van een configuratie Excel bestand. Hierin staan de 
 - minimum_observaties	[30]
 - crossings
 - [gmj_opleidingsniveau  
-   gmj_geslacht  
-   gmj_klas] (in een lijst onder elkaar)  
-- namen_crossings
-  [Onderwijssoort in twee groepen  
-  Gender in twee categorieën  
-  Leerjaar in twee categorieën] (in een lijst onder elkaar)  
- - labels_name
-   [Vmbo,Havo/Vwo
-   Jongen,Meisje  
-   Klas 2,Klas 4] (in een lijst onder elkaar)  
- - labels_id
-   [1, 2  
-   1, 2  
-   1, 2] (in een lijst onder elkaar)  
+gmj_geslacht  
+gmj_klas] (in een lijst onder elkaar)  
+- namen_crossings  
+[Onderwijssoort in twee groepen  
+Gender in twee categorieën  
+Leerjaar in twee categorieën] (in een lijst onder elkaar)  
+ - labels_name  
+[Vmbo,Havo/Vwo  
+Jongen,Meisje  
+Klas 2,Klas 4] (in een lijst onder elkaar)  
+ - labels_id  
+[1, 2  
+1, 2  
+1, 2] (in een lijst onder elkaar)  
 
 Dit script voegt de gemeenten automatisch samen tot regio en zet het GGD gemiddelde in de Excel file erbij.  
 De crossings worden los uitgedraaid per indicator.
