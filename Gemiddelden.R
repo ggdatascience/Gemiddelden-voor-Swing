@@ -1,7 +1,7 @@
 ### Script voor het berekenen van gemiddelden per variabele
 #
 # De basis van het script is gemaakt door Pieter Seinen 
-# Het script werkt met behulp van een configuratie Excel bestand. Hierin staan de volgende opties (zie Voorbeeld_conf.xlsx):
+# Het script werkt met behulp van een configuratie Excel-bestand. Hierin staan de volgende opties (zie Voorbeeld_conf.xlsx):
 # - bestandsnaam	[volledig/path/naar/spss_bestand_monitor_inclusief_labels.sav]
 # - output [volledig/path/naar/output_map]	
 # - variabele	[gmj_alcohollft,gmj_suiker_gemiddeld,gmj_energie_gemiddeld] (let op de komma's!)
@@ -18,8 +18,8 @@
 #             gmj_geslacht
 #             gmj_klas] (in een lijst onder elkaar)
 # - namen_crossings	[Onderwijssoort in twee groepen
-#                    Gender in twee categorieën
-#                    Leerjaar in twee categorieën] (in een lijst onder elkaar)
+#                    Gender in twee categorieÃ«n
+#                    Leerjaar in twee categorieÃ«n] (in een lijst onder elkaar)
 # - labels_name	[Vmbo,Havo/Vwo
 #               Jongen,Meisje
 #               Klas 2,Klas 4] (in een lijst onder elkaar)
@@ -72,7 +72,6 @@ min_observaties <- config_gem$minimum_observaties[1]
 crossings_list <- unlist(config_gem$crossings[!is.na(config_gem$crossings)])
 namen_crossings <- unlist(config_gem$namen_crossings[!is.na(config_gem$namen_crossings)])
 variabel_labels <- "gem"
-basismap_output="C:/Users/stijn.michielse/Documents"
 
 # Convenant stelt dat 'microdata' niet gedeeld mag worden met 3en. 
 # GGDGHOR verstaat daaronder ook groepsindelingen van 1.
